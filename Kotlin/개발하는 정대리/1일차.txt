@@ -1,0 +1,19 @@
+< !--- 앱개발 뽀개기 #1, 2, 3 --- >
+
+xml 파일의 Layout지우고 RelativeLayout으로하고 위의 코드에 background="@color/colorAccent">하면 정상 작동
+
+Live templete을 이용해 로그를 편하게 보자 logd, logt < 유튜브 참고
+생명주기란?
+1. 메모리 
+Activity launched -> onCreate() -> onStart() -> onResume() 
+-> Activity running -> onPause() -> onStop() 0> onDestroy() -> Activity shut down
+
+Logcat을 window로 설정하여 투 모니터로 보면 편하다.
+
+Splash Screen : 프로그램을 시작했을 때 로딩 중에 표시되는 대형 이미지 같은 것 
+1. 스카이프 UI를 만들어보자
+ (1) 로고 이미지 같은 경우는 인터넷에 icon이라고 검색하면 flaticon 웹사이트에서 검색할 수 있다.
+  - fillColor = 'ff000000'에서 6자리는 컬러이고 앞의 두자리는 투명도! 'fff'로 하면 흰색
+ (2) 배경화면에 그라데이션을 넣어야함
+  - stackoverflow 등 검색을 하여 해결하는 방법을 연구하는게 항상 필요함
+  - 댓글 중 채택, 추천이 높은 것의 코드를 가져와서 drawable -> resource file을 만들고 복붙, gradient나 corners 같은게 궁금하고 알고싶다면 android docs gradient라고 검색
