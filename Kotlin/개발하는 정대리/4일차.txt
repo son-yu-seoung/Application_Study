@@ -1,0 +1,21 @@
+< !--- 앱개발 뽀개기 #7 --- >
+<로티 애니메이션>
+구글에 lottie animation검색하면 로티 이미지를 다운 받을 수 있는 페이지가 나옴
+
+오픈 소스를 다운 받는법
+(1) 검색 : lottie animation git
+(2) ReadM에서 duolingo에 주소로 들어감
+(3) android 카테고리로 들어감
+(4) 오픈소스는 android studio에서 Gradle이라는 파일을 설정을 한다.
+(5) bulid.gradle파일 연다(Moudle: app)
+(6) $변수가 있으면 그 안에 버전 입력, 못 찾겠으면 git들어가서 CHANGELOG 들어가보기 or def lottieVersion = '3.7.0' // gradle에서는 def가 변수설정
+(7) 이미지를 json파일로 저장후 제일 큰 폴더인 app 우클릭 후 folder - asset folder생성
+(8) asset에 json파일은 복붙 
+(9) 오픈소스 문서에 From XML의 코드를 붙혀넣기 // 항상 오픈소스 문서를 봐야한다.
+(10) 여러 설정 후 다 완료 되었을 때 지금은 full animation이다 반으로 나누는 custom이 필요 // 오픈소스 문서에서 Custom animators쪽 찾아보기
+
+
+
+
+
+
