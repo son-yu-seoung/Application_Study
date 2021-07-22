@@ -1,0 +1,13 @@
+< !--- 앱개발 뽀개기 커스텀 다이얼로그 인터페이스 활용 --- >
+<커스텀 다이얼로그 만들기>
+class의 fun 리스너 함수에서 인자로 (view: View)를 받게 된다면 xml파일에서 onclick함수를 바로 사용할 수 있다.
+
+커스텀 다이얼로그 클래스를 만들면 이렇게 상속, 인자를 받아야함 
+class MyCustomDialog(context: Context): Dialog(context) {
+}
+content를 보내줄 때는 this를 이용하여 자기 자신을 보내주면 됌
+
+
+
+
+
